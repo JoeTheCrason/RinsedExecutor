@@ -3,7 +3,6 @@
 
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
@@ -17,9 +16,7 @@ local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-Frame.Parent = ScreenGui
+Frame.Parent = game.StarterGui.ScreenGui
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 0.050
@@ -73,10 +70,10 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.242038265, 0, 0.0909090713, 0)
 TextLabel.Size = UDim2.new(0.570063829, 0, 0.850000143, 0)
 TextLabel.Font = Enum.Font.Unknown
-TextLabel.Text = "Risen has Attached Succesfully"
-TextLabel.TextColor3 = Color3.fromRGB(237, 142, 244)
+TextLabel.Text = "Echo has Connected Succesfully"
+TextLabel.TextColor3 = Color3.fromRGB(23, 100, 255)
 TextLabel.TextSize = 17.000
-TextLabel.TextStrokeColor3 = Color3.fromRGB(237, 142, 244)
+TextLabel.TextStrokeColor3 = Color3.fromRGB(23, 100, 255)
 TextLabel.TextWrapped = true
 
 UIAspectRatioConstraint_3.Parent = TextLabel
@@ -87,7 +84,7 @@ UIAspectRatioConstraint_4.AspectRatio = 5.709
 
 -- Scripts:
 
-local function FHOLM_fake_script() -- gps_not_fixed.Script 
+local function HDVW_fake_script() -- gps_not_fixed.Script 
 	local script = Instance.new('Script', gps_not_fixed)
 
 	print("Hello world!")
@@ -96,8 +93,8 @@ local function FHOLM_fake_script() -- gps_not_fixed.Script
 	end
 	
 end
-coroutine.wrap(FHOLM_fake_script)()
-local function ZKDILU_fake_script() -- Frame.Script 
+coroutine.wrap(HDVW_fake_script)()
+local function UDVBOSB_fake_script() -- Frame.Script 
 	local script = Instance.new('Script', Frame)
 
 	local frame = script.Parent
@@ -124,8 +121,8 @@ local function ZKDILU_fake_script() -- Frame.Script
 	
 	
 end
-coroutine.wrap(ZKDILU_fake_script)()
-local function NZVMB_fake_script() -- Frame.Script 
+coroutine.wrap(UDVBOSB_fake_script)()
+local function NJDNGFX_fake_script() -- Frame.Script 
 	local script = Instance.new('Script', Frame)
 
 	local frame = script.Parent
@@ -152,4 +149,4 @@ local function NZVMB_fake_script() -- Frame.Script
 		true	
 	)
 end
-coroutine.wrap(NZVMB_fake_script)()
+coroutine.wrap(NJDNGFX_fake_script)()
